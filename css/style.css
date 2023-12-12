@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+	font-weight: normal;
+	color: #333333;
+	font-family: "メイリオ";
+	font-size: 16px;
+}
+img{
+	width: 100%;
+}
+
+.header{
+	display: block;
+	padding: 20px 40px;
+}
+.head_top {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+}
+.head_box{
+  display: flex;
+  max-width: 45%;
+}
+.head_btn{
+	width: 250px;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+.btn01 {
+	background-color: #fd617b;
+  margin-right: 20px;
+}
+.btn02 {
+	background-color: #1d782e;
+}
+.head_navi {
+  margin: 50px auto;
+}
+.head_navi ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 767px){
+	.header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 10px;
+	}
+	.head_btn{
+		width: 130px;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.header h1{
+		font-size: 20px;
+	}
+  .btn01 {
+    margin-right: 10px;
+  }  
+}
