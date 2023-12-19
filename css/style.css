@@ -254,7 +254,7 @@ img{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.sec_04_box p{
+.sec_04_box p, .sec_04_box span{
 	font-size: 18px;
 }
 
@@ -344,6 +344,7 @@ img{
 .bottom_navi li {
 	width: 16.6%;
 	padding: 5px;
+	line-height: 1.5;
 }
 @media only screen and (max-width: 767px){
 	.bottom_navi ul {
