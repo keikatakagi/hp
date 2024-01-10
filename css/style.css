@@ -369,8 +369,83 @@ footer p{
 }
 .form_01_title{
 	text-align: center;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #999999;
 }
 .form_01_title h1{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	font-size: 30px;
+}
+
+.form_content {
+	margin: 60px auto;
+}
+label {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	width: 30%;
+}
+.form_required {
+	font-size: 14px;
+	color: #fff;
+	background-color: #fd617b;
+	border-radius: 4px;
+	margin-left: 20px;
+	padding: 5px 8px;
+}
+
+input, textarea {
+	border: 1px solid #999999;
+	padding: 10px;
+	width: 69%;
+}
+select {
+	border: 1px solid #999999;
+	padding: 10px;
+	width: 30%;
+}
+select option:first-child {
+	color: #999999;
+}
+select:invalid {
+	color: #999999;
+}
+select option{
+	color: #000;
+}
+textarea {
+	height: 200px;
+}
+.policy {
+	display: inline-block;
+	width: 68%;
+	padding: 10px;
+}
+.policy input {
+	width: fit-content;
+}
+.policy label {
+	font-weight: normal;
+	width: fit-content;
+}
+.policy a {
+	color: #1d782e;
+	border-bottom: 1px solid #1d782e;
+}
+.policy span {
+	font-size: 16px;
+}
+.form_btn_box{
+	border-top: 1px solid #999999;
+	padding-top: 50px;
+	text-align: center;
+}
+.form_btn {
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #1d782e;
 }
